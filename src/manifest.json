@@ -1,0 +1,22 @@
+{
+    "name": "UTM Generator",
+    "description": "An extension to generate a UTM url from current page",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "icons": {
+        "16": "/img/favicon-16x16.png",
+        "32": "/img/favicon-32x32.png",
+        "48": "/img/favicon-48x48.png",
+        "128": "/img/favicon-128x128.png"
+    },    
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/img/favicon-16x16.png",
+            "32": "/img/favicon-32x32.png",
+            "48": "/img/favicon-48x48.png",
+            "128": "/img/favicon-128x128.png"
+        }
+    },
+    "permissions": ["activeTab", "scripting"]
+}
